@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F73999AD2AE91ED600702DDD /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73999AC2AE91ED500702DDD /* ProfileView.swift */; };
 		F75335D22AE7A80F0043C432 /* GitHubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75335D12AE7A80F0043C432 /* GitHubApp.swift */; };
 		F75335D42AE7A80F0043C432 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75335D32AE7A80F0043C432 /* ContentView.swift */; };
 		F75335D62AE7A8120043C432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75335D52AE7A8120043C432 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F73999AC2AE91ED500702DDD /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		F75335CE2AE7A80F0043C432 /* GitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75335D12AE7A80F0043C432 /* GitHubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubApp.swift; sourceTree = "<group>"; };
 		F75335D32AE7A80F0043C432 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				F75335DF2AE7CC7F0043C432 /* HomeView.swift */,
 				F75335E12AE8070D0043C432 /* InBoxView.swift */,
 				F75335E32AE823AA0043C432 /* ExeploreView.swift */,
+				F73999AC2AE91ED500702DDD /* ProfileView.swift */,
 			);
 			path = GitHub;
 			sourceTree = "<group>";
@@ -112,7 +115,7 @@
 				};
 			};
 			buildConfigurationList = F75335C92AE7A80F0043C432 /* Build configuration list for PBXProject "GitHub" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -150,6 +153,7 @@
 				F75335E42AE823AA0043C432 /* ExeploreView.swift in Sources */,
 				F75335E22AE8070D0043C432 /* InBoxView.swift in Sources */,
 				F75335D42AE7A80F0043C432 /* ContentView.swift in Sources */,
+				F73999AD2AE91ED600702DDD /* ProfileView.swift in Sources */,
 				F75335D22AE7A80F0043C432 /* GitHubApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
