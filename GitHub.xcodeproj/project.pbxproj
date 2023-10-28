@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		F73999AD2AE91ED600702DDD /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73999AC2AE91ED500702DDD /* ProfileView.swift */; };
+		F73999AF2AEA498800702DDD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73999AE2AEA498800702DDD /* Launch Screen.storyboard */; };
+		F73999B12AEA721200702DDD /* RegestrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73999B02AEA721200702DDD /* RegestrationView.swift */; };
+		F73999B32AEA727400702DDD /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73999B22AEA727400702DDD /* SignUpView.swift */; };
+		F73999B52AEA729E00702DDD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73999B42AEA729E00702DDD /* LoginView.swift */; };
 		F75335D22AE7A80F0043C432 /* GitHubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75335D12AE7A80F0043C432 /* GitHubApp.swift */; };
 		F75335D42AE7A80F0043C432 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75335D32AE7A80F0043C432 /* ContentView.swift */; };
 		F75335D62AE7A8120043C432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75335D52AE7A8120043C432 /* Assets.xcassets */; };
@@ -19,6 +23,10 @@
 
 /* Begin PBXFileReference section */
 		F73999AC2AE91ED500702DDD /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F73999AE2AEA498800702DDD /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		F73999B02AEA721200702DDD /* RegestrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegestrationView.swift; sourceTree = "<group>"; };
+		F73999B22AEA727400702DDD /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		F73999B42AEA729E00702DDD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		F75335CE2AE7A80F0043C432 /* GitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75335D12AE7A80F0043C432 /* GitHubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubApp.swift; sourceTree = "<group>"; };
 		F75335D32AE7A80F0043C432 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +75,10 @@
 				F75335E12AE8070D0043C432 /* InBoxView.swift */,
 				F75335E32AE823AA0043C432 /* ExeploreView.swift */,
 				F73999AC2AE91ED500702DDD /* ProfileView.swift */,
+				F73999AE2AEA498800702DDD /* Launch Screen.storyboard */,
+				F73999B02AEA721200702DDD /* RegestrationView.swift */,
+				F73999B22AEA727400702DDD /* SignUpView.swift */,
+				F73999B42AEA729E00702DDD /* LoginView.swift */,
 			);
 			path = GitHub;
 			sourceTree = "<group>";
@@ -137,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F73999AF2AEA498800702DDD /* Launch Screen.storyboard in Resources */,
 				F75335D92AE7A8120043C432 /* Preview Assets.xcassets in Resources */,
 				F75335D62AE7A8120043C432 /* Assets.xcassets in Resources */,
 			);
@@ -149,9 +162,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F73999B12AEA721200702DDD /* RegestrationView.swift in Sources */,
 				F75335E02AE7CC7F0043C432 /* HomeView.swift in Sources */,
 				F75335E42AE823AA0043C432 /* ExeploreView.swift in Sources */,
+				F73999B52AEA729E00702DDD /* LoginView.swift in Sources */,
 				F75335E22AE8070D0043C432 /* InBoxView.swift in Sources */,
+				F73999B32AEA727400702DDD /* SignUpView.swift in Sources */,
 				F75335D42AE7A80F0043C432 /* ContentView.swift in Sources */,
 				F73999AD2AE91ED600702DDD /* ProfileView.swift in Sources */,
 				F75335D22AE7A80F0043C432 /* GitHubApp.swift in Sources */,
@@ -294,6 +310,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,6 +340,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

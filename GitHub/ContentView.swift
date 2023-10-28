@@ -9,9 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-     
+        NavigationStack{
+            RegestrationView()
+        }
+    }
+    
+    func tapView()-> some View{
         TabView{
-     
+            
             HomeView()
                 .tabItem {
                     Image(systemName: "house.fill")
@@ -39,8 +44,8 @@ struct ContentView: View {
             
         }
     }
-        
-    }
+}
+    
 
 #Preview {
     ContentView()
